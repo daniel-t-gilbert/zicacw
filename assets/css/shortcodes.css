@@ -2468,7 +2468,13 @@
 
 /* flat-pages-title-home2 */
 .flat-pages-title-home2 {
-    padding: 40px 0 168px 0;
+    padding: 66px 0 66px 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .flat-pages-title-home2 {
+        padding: 0px 0 55px 0 !important;
+    }
 }
 
 .flat-pages-title-home2::before {
